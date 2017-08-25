@@ -10,13 +10,13 @@ Bill Lubanovic　著 『入門 Python 3』(オライリージャパン)の内容
 # エディタ
 Visual Studio Codeを利用しています。
 
-[Visual Studio Code][https://www.microsoft.com/ja-jp/dev/products/code-vs.aspx]
+[Visual Studio Code](https://www.microsoft.com/ja-jp/dev/products/code-vs.aspx "Visual Studio Code")
 
 ## Visual Studio Codeの拡張機能(Python)
-[Python][https://marketplace.visualstudio.com/items?itemName=donjayamanne.python]
-[Python for VSCode][https://marketplace.visualstudio.com/items?itemName=tht13.python]
-[MagicPython][https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython]
+[Python](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python "Python")
+[Python for VSCode](https://marketplace.visualstudio.com/items?itemName=tht13.python "Python for VSCode")
+[MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython "MagicPython")
 
 ## その他の拡張機能
-[Code Runner][https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner]
-[Git History][https://github.com/DonJayamanne/gitHistoryVSCode]
+[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner "Code Runner")
+[Git History](https://github.com/DonJayamanne/gitHistoryVSCode "Git History")

@@ -143,3 +143,98 @@ print(marxex)
 
 marxex.pop(1) #offset=1の要素が取り出される
 print(marxex)
+
+print("")
+print("---------------------------")
+print("index()で要素の値からオフセットを知る")
+print("---------------------------")
+marxex = ['Groucho','Chico','Harpo','Zeppo']
+print(marxex.index('Chico'))
+
+print("")
+print("---------------------------")
+print("inを使った値の有無")
+print("---------------------------")
+marxex = ['Groucho','Chico','Harpo','Zeppo']
+print('Groucho' in marxex)
+print('Bob' in marxex)
+
+print("")
+print("---------------------------")
+print("count()を使った値の個数の計算")
+print("---------------------------")
+marxex = ['Groucho','Chico','Harpo','Zeppo']
+print(marxex.count('Zeppo'))
+print(marxex.count('Bob'))
+
+snl_skit = ['cheeseburger','cheeseburger','cheeseburger']
+print(snl_skit.count('cheeseburger'))
+
+
+print("")
+print("---------------------------")
+print("join()による文字列への変換")
+print("---------------------------")
+marxex = ['Groucho','Chico','Harpo','Zeppo']
+print(','.join(marxex))
+
+friends = ['Harry','Hermione','Ron']
+separator = ' * '
+joined = separator.join(friends)
+print(joined)
+
+separated = joined.split(separator)
+print(separated)
+
+print(separated == friends)
+
+print("")
+print("---------------------------")
+print("sort()による要素の並び替え")
+print("---------------------------")
+marxex = ['Groucho','Chico','Harpo']
+sorted_marxex = sorted(marxex) #ソートしたオブジェクトのコピー
+print(sorted_marxex)
+
+print(marxex) #オブジェクト自体をソート
+marxex.sort()
+print(marxex)
+
+numbers = [2,1,4.0,3]
+numbers.sort()
+print(numbers)
+
+numbers.sort(reverse = True)
+print(numbers)
+
+print("")
+print("---------------------------")
+print("len()による長さの取得")
+print("---------------------------")
+marxex = ['Groucho','Chico','Harpo']
+print(len(marxex))
+
+print("")
+print("---------------------------")
+print("=による代入とcopy()によるコピー")
+print("---------------------------")
+a = [1,2,3]
+print(a)
+
+b = a #オブジェクトをコピーしている（ポインタアドレスのコピー？）
+print(b)
+
+a[0] = 'surprise'
+print(a)
+print(b)
+
+a = [1,2,3]
+b = a.copy() # 新しいオブジェクトを作成する
+c = list(a) # 新しいオブジェクトを作成する
+d = a[:] # 新しいオブジェクトを作成する
+
+a[0] = 'integer lists are boring'
+print(a)
+print(b)
+print(c)
+print(d)
