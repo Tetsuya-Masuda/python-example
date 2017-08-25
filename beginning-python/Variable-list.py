@@ -101,3 +101,45 @@ marxex.append(others)
 print(marxex)
 
 marxex = ['Groucho','Chico','Harpo','Zeppo']
+
+print("")
+print("---------------------------")
+print("insert()によるオフセットを指定した要素の追加")
+print("---------------------------")
+marxex.insert(3, 'Gummo')
+print(marxex)
+marxex.insert(10, 'Karl')
+print(marxex)
+
+print("")
+print("---------------------------")
+print("delによる指定したオフセットの要素の削除")
+print("---------------------------")
+del marxex[-1]
+print(marxex)
+
+marxex = ['Groucho','Chico','Harpo','Gummo','Zeppo']
+print(marxex[2])
+
+del marxex[2]
+print(marxex)
+print(marxex[2])
+
+print("")
+print("---------------------------")
+print("remover()による値に基づく要素の削除")
+print("---------------------------")
+marxex = ['Groucho','Chico','Harpo','Gummo','Zeppo']
+marxex.remove("Gummo")
+print(marxex)
+
+print("")
+print("---------------------------")
+print("pop()でオフセットを指定して要素を取り出し、削除する")
+print("---------------------------")
+marxex = ['Groucho','Chico','Harpo','Zeppo']
+marxex.pop()  #末尾の要素が取り出される
+print(marxex)
+
+marxex.pop(1) #offset=1の要素が取り出される
+print(marxex)

@@ -1,11 +1,11 @@
 # Python-Primer  
 Bill Lubanovic　著 『入門 Python 3』(オライリージャパン)の内容を実際に書いて勉強しています。
 
-[入門 Python 3]:https://www.oreilly.co.jp/books/9784873117386/
+[入門 Python 3](https://www.oreilly.co.jp/books/9784873117386/ "入門 Python3")
 
 # 環境
-- Windows 10
-- Python 3.6
+* Windows 10
+* Python 3.6
 
 # エディタ
 Visual Studio Codeを利用しています。
